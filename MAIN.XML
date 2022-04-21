@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Slot_booking">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:text="my appointment"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#4169E1"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:background="@drawable/edittext_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="50dp"
+        android:padding="16dp"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:hint="Patient Name"
+        android:drawablePadding="16dp"
+        android:drawableLeft="@drawable/person"
+        android:drawableStart="@drawable/person"
+        android:inputType="text"
+        android:textColor="#4169E1"
+        android:textColorHint="#4169E1"
+
+        />
+
+    <EditText
+        android:id="@+id/age"
+        android:background="@drawable/edittext_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:padding="16dp"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:hint="Symptoms"
+        android:drawablePadding="16dp"
+        android:drawableLeft="@drawable/person"
+        android:drawableStart="@drawable/person"
+        android:inputType="text"
+        android:textColor="#4169E1"
+        android:textColorHint="#4169E1"
+
+        />
+
+    <EditText
+        android:id="@+id/date1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_bg"
+
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Pick Your Date"
+        android:textAlignment="viewStart"
+        android:drawableStart="@drawable/date"
+        android:drawableLeft="@drawable/date"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:drawablePadding="16dp"
+        android:padding="16dp"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:textColor="#4169E1"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Time"
+        android:textSize="14sp"
+        android:background="@drawable/edittext_bg"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Pick Your Time"
+        android:textAlignment="viewStart"
+
+        android:drawableStart="@drawable/time"
+        android:drawablePadding="16dp"
+        android:drawableLeft="@drawable/time"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:padding="16dp"
+        android:textStyle="normal"
+        android:textColor="#4169E1"
+        />
+    <Button
+        android:id="@+id/appoint"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="60dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:text="Take Appointment"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isStudent" />
+
+
+
+
+
+</LinearLayout>
